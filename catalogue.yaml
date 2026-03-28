@@ -33,6 +33,11 @@
   - name: extracting the downloaded command_result
     ansible.builtin.unarchive:
       src: /tmp/catalogue.zip
-      dst: /app
+      dest: /app
       remote_src: yes
+
+  # - name: install dependencies
+  #   community.general.npm:
+  #   path: /app
+
 
