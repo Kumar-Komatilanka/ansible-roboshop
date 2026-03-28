@@ -3,3 +3,15 @@ mongodb.komatilanka.store
 
 [catalogue]
 catalogue.komatilanka.store
+
+[redis]
+redis.komatilanka.store
+
+[user]
+user.komatilanka.store
+
+[cart]
+cart.komatilanka.store
+
+[frontend]
+frontend.daws84s.site
